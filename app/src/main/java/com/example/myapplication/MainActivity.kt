@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
                 ).show()
             }
             else {
+                //Display name on textview
                 val message = "Welcome $name"
                 txtHello.text = message
                 edtName.text.clear()
